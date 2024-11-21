@@ -71,12 +71,13 @@ const Navbar = () => {
           {/* Image de profil locale */}
           <div className="flex items-center gap-3 cursor-pointer">
             <Image
-              src="/profile.jpg" // Chemin local
-              alt="Profile"
-              width={50}
-              height={50}
-              className="rounded-full h-full object-cover"
+            src="https://s3-enventorymanagement.s3.eu-west-3.amazonaws.com/profile.jpg"
+            alt="Profile"
+            width={50}
+            height={50}
+            className="rounded-full h-full object-cover"
             />
+            
             <span className="font-semibold">Khadija Elali</span>
           </div>
         </div>

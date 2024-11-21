@@ -81,13 +81,19 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        <div>img</div>
+        <Image
+            src="https://s3-enventorymanagement.s3.eu-west-3.amazonaws.com/logo.png"
+            alt="ek-logo"
+            width={27}
+            height={27}
+            className="rounded w-8"
+            />
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          EKSTOCK
         </h1>
 
         <button
